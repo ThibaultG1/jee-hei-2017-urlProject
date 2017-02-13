@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="urlProject-web:war exploded">
+    <output-path>$PROJECT_DIR$/urlProject-web/target/urlProject-web-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="urlProject-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="urlProject-core-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="urlProject-core" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/urlProject-web/target/urlProject-web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="urlProject-web/web/Web" />
+    </root>
+  </artifact>
+</component>
