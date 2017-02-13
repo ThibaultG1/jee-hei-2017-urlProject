@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="urlProject-app" />
+        <module name="urlProject-core" />
+        <module name="urlProject-web" />
+      </profile>
+      <profile name="Annotation profile for urlProject" enabled="true">
+        <sourceOutputDir name="urlProject-core/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="urlProject-core/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jee-hei-2017-urlProject" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jee-hei-2017-urlProject" target="1.8" />
+      <module name="urlProject-app" target="1.8" />
+      <module name="urlProject-core" target="1.8" />
+      <module name="urlProject-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

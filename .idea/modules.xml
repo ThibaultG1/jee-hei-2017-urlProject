@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jee-hei-2017-urlProject.iml" filepath="$PROJECT_DIR$/jee-hei-2017-urlProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/urlProject-app/urlProject-app.iml" filepath="$PROJECT_DIR$/urlProject-app/urlProject-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/urlProject-core/urlProject-core.iml" filepath="$PROJECT_DIR$/urlProject-core/urlProject-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/urlProject-web/urlProject-web.iml" filepath="$PROJECT_DIR$/urlProject-web/urlProject-web.iml" />
+    </modules>
+  </component>
+</project>
