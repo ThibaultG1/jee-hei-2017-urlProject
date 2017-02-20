@@ -1,4 +1,4 @@
-package hei.project.config;
+package hei.urlProject.core.config;
 
 import com.jolbox.bonecp.BoneCPDataSource;
 import org.springframework.context.annotation.Bean;
