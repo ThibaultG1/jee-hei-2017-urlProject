@@ -6,15 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jee-hei-2017-urlProject" />
         <module name="urlProject-app" />
         <module name="urlProject-core" />
         <module name="urlProject-web" />
-      </profile>
-      <profile name="Annotation profile for urlProject" enabled="true">
-        <sourceOutputDir name="urlProject-core/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="urlProject-core/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="jee-hei-2017-urlProject" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
