@@ -2,6 +2,7 @@ package hei.urlProject.web;
 
 import hei.urlProject.core.config.AppConfig;
 import hei.urlProject.core.config.DBConfig;
+import hei.urlProject.web.config.WSConfig;
 import org.apache.cxf.transport.servlet.CXFServlet;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
