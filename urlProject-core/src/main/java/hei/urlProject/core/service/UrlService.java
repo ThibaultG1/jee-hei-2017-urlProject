@@ -6,11 +6,11 @@ import java.util.List;
 
 public interface UrlService {
 
-    public List<Url> findAll();
+    List<Url> findAll();
 
 
-    public Url findOne(long id);
+    Url findOne(long id);
 
 
-    public void save(Url url);
+    void save(Url url);
 }
