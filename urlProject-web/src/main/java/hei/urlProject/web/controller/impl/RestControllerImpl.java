@@ -2,14 +2,11 @@ package hei.urlProject.web.controller.impl;
 
 import hei.urlProject.core.entity.Url;
 import hei.urlProject.core.service.UrlService;
-import org.springframework.web.bind.annotation.RestController;
+import hei.urlProject.web.controller.RestController;
 
 import javax.inject.Inject;
 import javax.inject.Named;
-import javax.ws.rs.Consumes;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
 
@@ -25,7 +22,7 @@ public class RestControllerImpl implements RestController {
     @Path("/")
     public List<Url> getUrl()
     {
-        return UrlService.findAll();
+        return urlService.findAll();
     }
 
 }
