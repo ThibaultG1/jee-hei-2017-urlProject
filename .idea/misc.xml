@@ -39,14 +39,13 @@
     </properties>
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/urlProject-web" />
+    <file type="web" url="file://$PROJECT_DIR$" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/urlProject-app/pom.xml" />
-        <option value="$PROJECT_DIR$/urlProject-core/pom.xml" />
         <option value="$PROJECT_DIR$/urlProject-web/pom.xml" />
       </list>
     </option>

@@ -1,10 +1,8 @@
 package hei.urlProject.core.entity;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+@Entity
 public class Url {
 
     @Id
@@ -20,13 +18,18 @@ public class Url {
     public Url() {
     }
 
-    public Url(String urlInitial, String urlRaccourci) {
+    public Url(Long id, String urlInitial, String urlRaccourci) {
+        this.id = id;
         this.urlInitial = urlInitial;
         this.urlRaccourci = urlRaccourci;
     }
 
     public Long getId() {
         return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getUrlInitial() {
