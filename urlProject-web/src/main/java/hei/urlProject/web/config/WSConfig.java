@@ -1,6 +1,7 @@
 package hei.urlProject.web.config;
 
 import com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider;
+import hei.urlProject.web.controller.RestController;
 import org.apache.cxf.Bus;
 import org.apache.cxf.endpoint.Server;
 import org.apache.cxf.jaxrs.JAXRSServerFactoryBean;
@@ -8,7 +9,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
-import org.springframework.web.bind.annotation.RestController;
 
 
 import javax.inject.Inject;
