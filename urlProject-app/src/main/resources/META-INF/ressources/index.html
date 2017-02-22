@@ -65,7 +65,8 @@
   </div>
 </header>
 
-<!-- Shorten Section --><section id="shorten">
+<!-- Shorten Section -->
+<section id="shorten">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -79,35 +80,32 @@
           <div class="row control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label>URL to shorten</label>
-              <input type="text" class="form-control" placeholder="http://www.myFavouriteWebsiteWithAWayTooLongUrl.com/blablabla" id="urlInitial" required data-validation-required-message="Please enter a correct URL.">
+              <input type="text" class="form-control" placeholder="Url to shorten" id="urlInitial" required data-validation-required-message="Please enter a correct URL. <br/> <i>Example : http://www.myFavouriteWebsiteWithAWayTooLongUrl.com/blablabla</i>">
               <p class="help-block text-danger"></p>
             </div>
           </div>
-                      <br/>
-          <div class="input-group"><span class="input-group-addon">
-            <input type="checkbox">
-            </span>
-
-            <div class="row control-group">
-              <div class="form-group col-xs-12 floating-label-form-group controls">
-                <label>Url shortened</label>
-                <input type="email" class="form-control" placeholder="	Choose Url shortened" id="urlRaccourci" required data-validation-required-message="Please enter another URL. This one is not available">
-                <p class="help-block text-danger"></p>
-              </div>
+          <div class="row control-group" id="personalizeSection">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <label>Url shortened</label>
+              <input type="email" class="form-control" placeholder="Choose your personalized shortened Url" id="personalizeInput" data-validation-message="Please enter another URL. This one is not available">
+              <p class="help-block text-danger"></p>
             </div>
           </div>
           <br>
           <div id="success"></div>
           <div class="row">
-            <div class="form-group col-xs-12">
+            <div class="form-group col-xs-5">
               <button type="submit" class="btn btn-success btn-lg">Shorten URL</button>
+            </div>
+            <div class="form-group col-xs-1" id="or"> <span>Or</span> </div>
+            <div class="form-group col-xs-5">
+              <button type="button" onClick="showButton()" class="btn btn-success btn-lg" id="personalizeButton">Choose a personalized shortened URL</button>
             </div>
           </div>
         </form>
       </div>
     </div>
   </div>
-
 </section>
 
 <!-- List Section -->
@@ -119,14 +117,27 @@
         <hr class="star-light">
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-4 col-lg-offset-2">
-        <p>Table of URLs</p>
-      </div>
-      <div class="col-lg-4">
-        <p>Table of URLs</p>
-      </div>
-    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Initial URL</th>
+          <th>Shortened URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td><a href="http://www.google.com">http://www.google.com</a></td>
+          <td><a href="localhost:8080/goo">localhost:8080/goo</a></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td><a href="http://getbootstrap.com">http://getbootstrap.com</a></td>
+          <td><a href="localhost:8080/bs">localhost:8080/bs</a></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </section>
 
