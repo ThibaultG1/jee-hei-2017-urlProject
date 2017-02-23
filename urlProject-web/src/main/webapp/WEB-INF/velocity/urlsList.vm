@@ -120,16 +120,13 @@
         </tr>
       </thead>
       <tbody>
+        #foreach($url in $urls)
         <tr>
-          <th scope="row">1</th>
-          <td><a href="http://www.google.com">http://www.google.com</a></td>
-          <td><a href="localhost:8080/goo">localhost:8080/goo</a></td>
+          <th scope="row">$url.id</th>
+          <td><a href="$url.urlInitial">$url.urlInitial</a></td>
+          <td><a href="$url.urlRaccourci">$url.urlRaccourci</a></td>
         </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td><a href="http://getbootstrap.com">http://getbootstrap.com</a></td>
-          <td><a href="localhost:8080/bs">localhost:8080/bs</a></td>
-        </tr>
+          #end
       </tbody>
     </table>
   </div>
