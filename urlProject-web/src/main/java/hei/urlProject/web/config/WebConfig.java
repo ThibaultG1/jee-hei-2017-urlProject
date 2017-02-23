@@ -22,7 +22,7 @@ public class WebConfig extends WebMvcConfigurerAdapter{
     @Bean
     public VelocityConfigurer velocityConfigurer(){
         VelocityConfigurer configurer = new VelocityConfigurer();
-        configurer.setRessourceLoaderPath("/WEB-INF/velocity");
+        configurer.setResourceLoaderPath("/WEB-INF/velocity");
         return configurer;
     }
 
