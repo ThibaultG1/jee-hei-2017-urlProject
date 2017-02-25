@@ -70,18 +70,20 @@
     </div>
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-        <form name="shortenUrl" id="urlForm" novalidate>
+        <form name="shortenUrl" id="urlForm" action="form" method="POST">
           <div class="row control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label>URL to shorten</label>
-              <input type="text" class="form-control" placeholder="Url to shorten" id="urlInitial" required data-validation-required-message="Please enter a correct URL. <br/> <i>Example : http://www.myFavouriteWebsiteWithAWayTooLongUrl.com/blablabla</i>">
+              #springFormInput("url.urlInitial" "type='text' class='form-control' placeholder='Url to shorten'' id='urlInitial' required data-validation-required-message='Please enter a correct URL. <br/> <i>Example : http://www.myFavouriteWebsiteWithAWayTooLongUrl.com/blablabla</i>'")
+             <!-- <input type="text" class="form-control" placeholder="Url to shorten" id="urlInitial" required data-validation-required-message="Please enter a correct URL. <br/> <i>Example : http://www.myFavouriteWebsiteWithAWayTooLongUrl.com/blablabla</i>">-->
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <div class="row control-group" id="personalizeSection">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label>Url shortened</label>
-              <input type="email" class="form-control" placeholder="Choose your personalized shortened Url" id="personalizeInput" data-validation-message="Please enter another URL. This one is not available">
+              #springFormInput("url.urlRaccourci" "type='email' class='form-control' placeholder='Choose your personalized shortened Url' id='personalizeInput' data-validation-message='Please enter another URL. This one is not available'")
+             <!--   <input type="email" class="form-control" placeholder="Choose your personalized shortened Url" id="personalizeInput" data-validation-message="Please enter another URL. This one is not available">-->
               <p class="help-block text-danger"></p>
             </div>
           </div>
