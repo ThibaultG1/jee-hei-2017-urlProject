@@ -25,4 +25,16 @@ public class RestControllerImpl implements RestController {
         return urlService.findAll();
     }
 
+    @GET
+    @Path("/{id}")
+    public Url getOne(@PathParam("id") long id) {
+        return urlService.findOne(id);
+    }
+
+
+    @POST
+    @Path("/")
+    public void saveEvenement(Url url) {
+        urlService.save(url);
+    }
 }
