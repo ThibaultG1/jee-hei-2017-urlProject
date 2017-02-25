@@ -16,10 +16,11 @@ public class Url {
     private String urlRaccourci;
 
     public Url() {
+        super();
     }
 
-    public Url(Long id, String urlInitial, String urlRaccourci) {
-        this.id = id;
+    public Url(String urlInitial, String urlRaccourci) {
+        super();
         this.urlInitial = urlInitial;
         this.urlRaccourci = urlRaccourci;
     }
