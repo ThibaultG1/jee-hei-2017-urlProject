@@ -13,4 +13,8 @@ public interface UrlService {
     public List<Url> findAll();
 
     public void save(Url url);
+
+    void redirUrl(String nom);
+
+    Url findOneUrlShortened(String nom);
 }
