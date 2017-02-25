@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface UrlDAO extends JpaRepository<Url,Long>{
 
+    Url findByUrlRaccourci(String urlRaccourci);
 }

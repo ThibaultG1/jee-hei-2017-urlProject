@@ -20,6 +20,8 @@ public class UrlServiceImpl implements UrlService{
         return urlDAO.findOne(id);
     }
 
+    public Url findOneByUrlRaccourci(String urlRaccourci){return urlDAO.findByUrlRaccourci(urlRaccourci);};
+
     public List<Url> findAll(){
         return urlDAO.findAll();
     }

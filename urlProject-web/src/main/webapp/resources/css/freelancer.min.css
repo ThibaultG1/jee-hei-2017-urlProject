@@ -19,9 +19,6 @@ a, a.active, a:active, a:focus, a:hover {
 table.table a{
 	color:#FFFFFF;
 }
-#personalizeSection{
-	display:none;
-}
 h1, h2, h3, h4, h5, h6 {
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
@@ -431,4 +428,18 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
 	opacity: 0;
 	display: none
+}
+#or{
+    margin-top:13px;
+    margin-right:13px;
+}
+#prePersoUrl{
+    margin-top:25px;
+}
+.black-color{
+    color: black;
+    font-weight: bold;
+}
+#personalizeSection{
+    display:none;
 }

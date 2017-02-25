@@ -7,7 +7,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <title>Shorten me</title>
-<link rel="icon" href="img/unicorn256.png" />
+<link rel="icon" href="img/unicorn.ico" />
 <!-- Bootstrap Core CSS -->
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -80,21 +80,23 @@
             </div>
           </div>
           <div class="row control-group" id="personalizeSection">
-            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <div  class="col-xs-3">
+                  <p id="prePersoUrl">localhost:8080/</p>
+              </div>
+            <div class="form-group col-xs-9 floating-label-form-group controls">
               <label>Url shortened</label>
               #springFormInput("url.urlRaccourci" "type='email' class='form-control' placeholder='Choose your personalized shortened Url' id='personalizeInput' data-validation-message='Please enter another URL. This one is not available'")
-             <!--   <input type="email" class="form-control" placeholder="Choose your personalized shortened Url" id="personalizeInput" data-validation-message="Please enter another URL. This one is not available">-->
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <br>
           <div id="success"></div>
           <div class="row">
-            <div class="form-group col-xs-5">
+            <div class="form-group col-xs-3">
               <button type="submit" class="btn btn-success btn-lg">Shorten URL</button>
             </div>
-            <div class="form-group col-xs-1" id="or"> <span>Or</span> </div>
-            <div class="form-group col-xs-5">
+            <div class="form-group col-xs-1" id="or"> <span class="-align-center">OR</span> </div>
+            <div class="form-group col-xs-4">
               <button type="button" onClick="showButton()" class="btn btn-success btn-lg" id="personalizeButton">Choose a personalized shortened URL</button>
             </div>
           </div>
@@ -125,8 +127,8 @@
         #foreach($url in $urls)
         <tr>
           <th scope="row">$url.id</th>
-          <td><a href="$url.urlInitial">$url.urlInitial</a></td>
-          <td><a href="$url.urlRaccourci">$url.urlRaccourci</a></td>
+          <td><a href="$url.urlInitial" target="_blank">$url.urlInitial</a></td>
+          <td><a href="$url.urlRaccourci" target="_blank">$url.urlRaccourci</a></td>
         </tr>
           #end
       </tbody>
@@ -157,7 +159,7 @@
 <!-- Plugin JavaScript --> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
 
-<!-- Contact Form JavaScript --> 
+<!-- Form JavaScript -->
 <script src="js/jqBootstrapValidation.js"></script>
 
 <!-- Theme JavaScript --> 

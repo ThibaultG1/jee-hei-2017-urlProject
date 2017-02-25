@@ -8,6 +8,8 @@ public interface UrlService {
 
     public Url findOne(Long id);
 
+    public Url findOneByUrlRaccourci(String urlRaccourci);
+
     public List<Url> findAll();
 
     public void save(Url url);
