@@ -34,7 +34,7 @@ public class WebController {
     public String submitForm(@ModelAttribute("url") Url url) {
         LOGGER.info("J'ajoute un URL");
         if (url.getUrlRaccourci() == "") {
-            url.setUrlRaccourci(UUID.randomUUID().toString());
+            url.setUrlRaccourci(Long.toHexString(Double.doubleToLongBits(Math.random())));
             urlService.save(url);
             return "redirect:";
         } else {
