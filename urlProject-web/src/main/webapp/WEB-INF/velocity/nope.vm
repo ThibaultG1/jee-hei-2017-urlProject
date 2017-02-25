@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>404 - Shorten me</title>
+<title>Nope - Shorten me</title>
 <link rel="icon" href="img/unicorn.ico" />
 <!-- Bootstrap Core CSS -->
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,8 +26,8 @@
 <body class="no-menu">
 <header>
     <div class="row">
-      <div class="col-lg-12"> <img class="img-responsive" src="img/unicorn256.gif" alt="LOOKS LIKE A 404 ERROR">
-        <div class="intro-text"><span class="name">OH NOOO</span>
+      <div class="col-lg-12"> <img class="img-responsive" src="img/unicorn256.png" alt="ALREADY REGISTERED">
+        <div class="intro-text"><span class="name">ALREADY REGISTERED</span>
           <hr class="star-light">
           <span class="skills"><a href="/"><button class="btn btn-lg black-color">Come back with us little unicorn!</button></a></span> </div>
       </div>
