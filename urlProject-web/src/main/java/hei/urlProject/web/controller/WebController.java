@@ -38,4 +38,9 @@ public class WebController {
         return "redirect:";
     }
 
+    @RequestMapping("/*")
+    public String error(){
+        return "404";
+    }
+
 }
