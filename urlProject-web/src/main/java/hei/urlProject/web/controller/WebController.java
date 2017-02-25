@@ -21,14 +21,6 @@ public class WebController {
     @Inject
     private UrlService urlService;
 
- /*   @RequestMapping({"/","index"})
-    public String getListOfUrls(ModelMap model){
-        LOGGER.info("Je retourne la liste des URLs");
-        List<Url> urls = urlService.findAll();
-        model.addAttribute("urls",urls);
-        return "index";
-    }*/
-
     @RequestMapping(value="/",method = RequestMethod.GET)
     public String getFormAndList(ModelMap model){
         LOGGER.info("J'affiche le formulaire d'ajout d'URL");

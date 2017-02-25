@@ -9,16 +9,17 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
-import javax.servlet.ServletRegistration;
+import javax.servlet.ServletRegistration.Dynamic;
 
-    public class Initializer  extends AbstractAnnotationConfigDispatcherServletInitializer{
+public class Initializer  extends AbstractAnnotationConfigDispatcherServletInitializer{
 
 
 
         @Override
         public void onStartup(ServletContext servletContext) throws ServletException {
             super.onStartup(servletContext);
-            ServletRegistration.Dynamic servlet = servletContext.addServlet("cxfServlet", new CXFServlet());
+            //ServletRegistration.Dynamic servlet = servletContext.addServlet("cxfServlet", new CXFServlet());
+            Dynamic servlet = servletContext.addServlet("cxfServlet",new CXFServlet());
             servlet.setLoadOnStartup(1);
             servlet.addMapping("/api/*");
         }

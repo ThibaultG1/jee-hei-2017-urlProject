@@ -47,11 +47,11 @@
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.4" />
           <element id="library" level="project" name="Maven: org.webjars:bootstrap:3.3.7-1" />
           <element id="library" level="project" name="Maven: org.webjars:jquery:1.11.1" />
+          <element id="library" level="project" name="Maven: org.webjars:momentjs:2.17.1" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.8" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.8" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
           <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
-          <element id="library" level="project" name="Maven: hei.2017:urlProject-app:1.0-SNAPSHOT" />
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxrs:3.1.9" />
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-core:3.1.9" />
           <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
