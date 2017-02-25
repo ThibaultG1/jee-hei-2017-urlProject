@@ -19,7 +19,7 @@ public class RestControllerImpl implements RestController {
     private UrlService urlService;
 
     @GET
-    @Path("/")
+    @Path("/list")
     public List<Url> getUrl()
     {
         return urlService.findAll();
