@@ -1,7 +1,7 @@
 ###DOCUMENTATION
 ####Synopsis
 
-Le concept est une application Web assurant un acces à plusieurs URL raccourcis.
+UrlProject est une application Web assurant un acces à plusieurs URLs raccourcis.
 
 ####Instructions d’installation 
 
@@ -11,21 +11,16 @@ Le concept est une application Web assurant un acces à plusieurs URL raccourcis
 
 L'application propose trois sections: START, SHORTEN et LIST. 
 
-Pour raccourcir un URL il faudra se déplacer vers la section SHORTEN et aprés taper
-un URL valide. Ensuite,  il faudra tout simplement appuyer sur le bouton "Shorten URL".
+Pour raccourcir un URL, il faut se rendre dans la section SHORTEN et y saisir un URL valide. Ensuite, il faut tout simplement appuyer sur le bouton "Shorten URL".
 
-Pour choisir un url personnalisé (si l'on veut) il est posible taper l'URL souhaitée et
-puis d'appuyer sur le bouton "Choose a personalized shortened URL".
+Si l'on souhaite choisir un url personnalisé, il est posible taper l'URL souhaité et d'appuyer sur le bouton "Choose a personalized shortened URL".
 
-Finalement dans la dernière section, voici une liste de tous l'URL qui ont été raccourcis.
-Pour accéder à un URL il faudra tout simplement cliquer sur l'une et l'autre.
+Enfin, la dernière section présente la liste de tous les URLs qui ont déjà été raccourcis.
+Pour accéder à un URL il faut tout simplement cliquer sur l'un d'entre eux.
 
 ####Justification des choix d’architecture
 
-Le MVC, dont les trois éléments sont indépendants les uns des autres, est un motif
-d'architecture logicielle destiné aux interfaces graphiques et c'est pour 
-mettre en oeuvre des interfaces utilisateur. Un avantage apporté par ce modèle est
-la clarté de l'architecture qu'il impose. 
+Le MVC, dont les trois éléments sont indépendants les uns des autres, est un motif d'architecture logicielle destiné aux interfaces graphiques et permet de mettre en oeuvre des interfaces utilisateur. La clarté de l'architecture qu'il impose en est un avantage. 
  
 Pour plus d'informations:
  
