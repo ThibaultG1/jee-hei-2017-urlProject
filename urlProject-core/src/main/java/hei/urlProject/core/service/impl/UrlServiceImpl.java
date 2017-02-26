@@ -30,7 +30,4 @@ public class UrlServiceImpl implements UrlService{
         urlDAO.save(url);
     }
 
-    @Override
-    public void redirUrl(String id) {}
-
 }

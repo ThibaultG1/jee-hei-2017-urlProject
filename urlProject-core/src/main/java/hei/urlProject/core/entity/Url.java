@@ -48,6 +48,5 @@ public class Url {
     public void setUrlRaccourci(String urlRaccourci) {
         this.urlRaccourci = urlRaccourci;
     }
-
-
+    
 }
