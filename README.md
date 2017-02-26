@@ -1,4 +1,7 @@
 ###DOCUMENTATION
+####Synopsis
+
+Le concept est une application Web assurant un acces à plusieurs URL raccourcis.
 
 ####Instructions d’installation 
 
