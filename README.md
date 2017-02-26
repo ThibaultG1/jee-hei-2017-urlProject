@@ -5,7 +5,7 @@ UrlProject est une application Web assurant un acces à plusieurs URLs raccourci
 
 ####Instructions d’installation 
 
-...
+Pour exécuter l'application il faut ajouter dans la structure du project un nouvel artifact de type .jar et d'établir comme propriété du document le fichier MANIFIEST.MF situé dans C:\...\jee-hei-2017-urlProject.git\urlProject-core\src\main\java\META-INF
 
 ####Instructions d’utilisation
 
