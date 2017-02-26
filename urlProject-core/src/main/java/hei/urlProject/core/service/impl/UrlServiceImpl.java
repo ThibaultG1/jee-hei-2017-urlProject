@@ -29,4 +29,8 @@ public class UrlServiceImpl implements UrlService{
     public void save(Url url){
         urlDAO.save(url);
     }
+
+    @Override
+    public void redirUrl(String id) {}
+
 }
